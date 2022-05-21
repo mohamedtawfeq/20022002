@@ -237,3 +237,118 @@ body::before{
     border-radius: 8px;
     color: black;
 }
+.M1 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: transparent;
+    border: solid 1px var(--main-clor);
+    border-radius: 20px;
+    animation: rotate-left 5s linear infinite;
+    left: -40px;
+    top: 510px;
+    z-index: -2;
+}
+
+
+
+.M2 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: transparent;
+    border: solid 1px var(--main-clor);
+    border-radius: 20px;
+    animation: rotate-right 3s linear infinite;
+    left: 200px;
+    top: 300px;
+    z-index: -2;
+}
+
+
+.M3 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border: solid 1px var(--main-clor);
+    border-radius: 20px;
+    animation: rotate-right 5s linear infinite;
+    left: -40px;
+    top: 10px;
+    z-index: -2;
+}
+
+
+.M4 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: solid 1px var(--main-clor);
+    border-radius: 15px;
+    animation: rotate-right 5s linear infinite;
+    left: 40px;
+    top: 200px;
+    z-index: -2;
+}
+
+
+.M5 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border: solid 1px var(--main-clor);
+    border-radius: 15px;
+    animation: rotate-right 5s linear infinite;
+    left: 90px;
+    top: 400px;
+    z-index: -2;
+}
+
+
+.M6 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border: solid 1px var(--main-clor);
+    border-radius: 5px;
+    animation: rotate-right 5s linear infinite;
+    left: 200px;
+    top: 200px;
+    z-index: -2;
+}
+
+
+.M7 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: solid 1px var(--main-clor);
+    border-radius: 9px;
+    animation: rotate-left 5s linear infinite;
+    left: 200px;
+    top: 100px;
+    z-index: -2;
+}
+
+@keyframes rotate-right {
+    form {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(-1turn);
+    }
+}
+
+@keyframes rotate-left {
+    form {
+    transform: rotate(0);
+    }
+    to {
+    transform: rotate(1turn);
+    }
+}
